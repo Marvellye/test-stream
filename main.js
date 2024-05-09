@@ -5,7 +5,7 @@ const cors = require("cors");
 const rs = require("request");
 const port = process.env.PORT || 5000;
 app.use(cors());
-const baseURL = "https://gogoanime.ai/";
+const baseURL = "https://anitaku.so/";
 
 app.get("/api/home", (req, res) => {
   let info = {
