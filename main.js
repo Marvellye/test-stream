@@ -9,14 +9,14 @@ const baseURL = "https://anitaku.so/";
 
 app.get("/api/home", (req, res) => {
   let info = {
-    popular: "https://watch-my-anime.herokuapp.com/api/popular/:page",
-    details: "https://watch-my-anime.herokuapp.com/api/details/:id",
-    search: "https://watch-my-anime.herokuapp.com/api/search/:word/:page",
-    episode_link: "https://watch-my-anime.herokuapp.com/api/watching/:id/:episode",
-    genre: "https://watch-my-anime.herokuapp.com/api/genre/:type/:page",
-    recently_added: "https://watch-my-anime.herokuapp.com/api/recentlyadded/:page",
-    anime_list: "https://watch-my-anime.herokuapp.com/api/list/:alphabet||all/:page",
-    genrelist: "https://watch-my-anime.herokuapp.com/api/genrelist",
+    popular: "https://test-stream-ew90.onrender.com/api/popular/:page",
+    details: "https://test-stream-ew90.onrender.com/api/details/:id",
+    search: "https://test-stream-ew90.onrender.com/api/search/:word/:page",
+    episode_link: "https://test-stream-ew90.onrender.com/api/watching/:id/:episode",
+    genre: "https://test-stream-ew90.onrender.com/api/genre/:type/:page",
+    recently_added: "https://test-stream-ew90.onrender.com/api/recentlyadded/:page",
+    anime_list: "https://test-stream-ew90.onrender.com/api/list/:alphabet||all/:page",
+    genrelist: "https://test-stream-ew90.onrender.com/api/genrelist",
   };
   res.send(info);
 });
